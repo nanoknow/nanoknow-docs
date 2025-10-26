@@ -8,7 +8,9 @@ import Section from "~/components/Section.astro";
 import Card from "~/components/user-components/NewCard.astro";
 import Grid from "~/components/user-components/Grid.astro";
 
-<Section title='About <span style="color: #FFC500;">NanoKnow</span>' description="Building a knowledge hub for the nanofabrication community" titleClass="text-7xl">
+<div id="about"></div>
+
+<Section title='<span style="color: #1354A2;">About</span> <span style="color: #FFC500;">NanoKnow</span>' description="Building a knowledge hub for the nanofabrication community" titleClass="text-7xl">
 
 <div style="margin-top: 4rem;"></div>
 
@@ -18,7 +20,7 @@ NanoKnow was created to address the growing need for accessible, comprehensive k
 
 </div>
 
-<Grid columns={2}>
+<Grid columns={3}>
   <Card title="Knowledge Sharing" icon="open-book" iconColor="#1354A2">
     We curate and maintain comprehensive documentation on nanofabrication techniques, equipment, and processes.
   </Card>
@@ -27,18 +29,16 @@ NanoKnow was created to address the growing need for accessible, comprehensive k
     We foster connections between researchers, engineers, and students in the nanofabrication field.
   </Card>
   
-  <Card title="Best Practices" icon="approve-check-circle" iconColor="#1354A2">
-    We document proven methodologies and safety protocols used in clean rooms worldwide.
-  </Card>
-  
-  <Card title="Open Access" icon="link" iconColor="#FFC500">
+  <Card title="Open Access" icon="link" iconColor="#1354A2">
     We provide free, open access to knowledge that traditionally requires years of hands-on experience.
   </Card>
 </Grid>
 
 </Section>
 
-<Section title='Our <span style="color: #1354A2;">Vision</span>' description="Democratizing nanofabrication knowledge for everyone" titleClass="text-7xl">
+<div id="vision" style="margin-top: 6rem;"></div>
+
+<Section title='<span style="color: #1354A2;">The Vision of</span> <span style="color: #FFC500;">NanoKnow</span>' description="Democratizing nanofabrication knowledge for everyone" titleClass="text-7xl">
 
 <div style="margin-top: 4rem;"></div>
 
@@ -59,18 +59,6 @@ We envision a world where nanofabrication knowledge is accessible to anyone with
   
   <Card title="Community Growth" icon="puzzle" iconColor="#1354A2">
     Build a thriving community where knowledge flows freely and collaboration is encouraged.
-  </Card>
-  
-  <Card title="Safety First" icon="approve-check" iconColor="#FFC500">
-    Ensure that safety best practices and protocols are prominently featured and easily accessible.
-  </Card>
-  
-  <Card title="Innovation" icon="seti:config" iconColor="#1354A2">
-    Accelerate innovation by reducing the time it takes to learn fundamental techniques.
-  </Card>
-  
-  <Card title="Sustainability" icon="seti:folder" iconColor="#FFC500">
-    Create a sustainable platform that will serve the nanofabrication community for decades to come.
   </Card>
 </Grid>
 

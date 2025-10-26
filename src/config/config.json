@@ -20,10 +20,10 @@
   },
   "navigation_button": {
     "enable": true,
-    "label": "Get Started",
+    "label": "Contact",
     "translations": {
-      "de": "Erste Schritte"
+      "de": "Kontakt"
     },
-    "link": "/equipment-processes/"
+    "link": "/contact/"
   }
 }

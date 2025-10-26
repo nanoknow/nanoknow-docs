@@ -1,13 +1,13 @@
 .section {
-  @apply py-16! xl:py-24!;
+  @apply py-16! xl:py-15!;
 }
 
 /* container */
 .container {
-  @apply mx-auto max-w-full! xl:!max-w-[1740px] px-4;
+  @apply mx-auto max-w-full! xl:max-w-[1740px]! px-4;
 }
 .content-panel .sl-container {
-  @apply mx-auto xl:!max-w-[1740px] px-4;
+  @apply mx-auto xl:max-w-[1740px]! px-4;
 }
 .hero-bg {
   @apply absolute top-0 left-0 w-full -z-10;

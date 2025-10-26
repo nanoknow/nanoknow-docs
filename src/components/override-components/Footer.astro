@@ -13,6 +13,7 @@ const footer = menu.footer;
 ---
 
 <footer>
+  <div class="footer-divider"></div>
   <div class="container">
     <div class="top-footer">
       {
@@ -116,16 +117,24 @@ const footer = menu.footer;
 
 <style>
   @layer starlight.core {
+    .footer-divider {
+      max-width: 1400px;
+      margin: 0 auto 1rem;
+      border-top: 1px solid var(--sl-color-gray-6);
+    }
+    :root[data-theme="light"] .footer-divider {
+      border-top: 1px solid var(--sl-color-gray-5);
+    }
     .top-footer {
       border-bottom: 1px solid var(--sl-color-gray-6);
-      padding: 60px 0;
+      padding: 40px 0 30px;
       display: grid;
       gap: 2rem;
       grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     }
     .top-footer h4 {
       font-size: 1rem !important;
-      margin-bottom: 4rem;
+      margin-bottom: 2rem;
     }
     .top-footer ul {
       list-style: none;
@@ -188,10 +197,10 @@ const footer = menu.footer;
     }
 
     .bottom-footer {
-      padding: 32px 0;
-      border-top: 1px solid var(--sl-color-hairline);
+      padding: 20px 0;
+      border-top: 2px solid var(--sl-color-hairline);
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
       align-items: center;
       flex-wrap: wrap;
       gap: 1rem;

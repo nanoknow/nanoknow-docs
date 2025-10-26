@@ -14,43 +14,23 @@ import LinkButton from "~/components/LinkButton.astro";
 <div style="margin-top: 4rem;"></div>
 
 <Grid columns={3}>
-  <Card title="Getting Started with Nanofabrication" icon="rocket" iconColor="#305cde">
-    Learn the fundamentals of nanofabrication techniques and best practices for beginners in the field.
-    
-    <LinkButton href="/blog/getting-started-nanofab/" variant="text" className="mt-6 mb-4">Read more →</LinkButton>
-  </Card>
+  <a href="/blog/getting-started-nanofab/" style="text-decoration: none; color: inherit; display: block;">
+    <Card title="Getting Started with Nanofabrication" icon="rocket" iconColor="#305cde">
+      Learn the fundamentals of nanofabrication techniques and best practices for beginners in the field.
+    </Card>
+  </a>
 
-  <Card title="New Features in 2025" icon="seti:favicon" iconColor="#dec331">
-    Discover the exciting new features and improvements we've rolled out this year to enhance your experience.
-    
-    <LinkButton href="/blog/new-features-2025/" variant="text" className="mt-6 mb-4">Read more →</LinkButton>
-  </Card>
+  <a href="/blog/clean-room-best-practices/" style="text-decoration: none; color: inherit; display: block;">
+    <Card title="Clean Room Best Practices" icon="seti:config" iconColor="#dec331">
+      Essential guidelines and tips for maintaining optimal clean room conditions and protocols.
+    </Card>
+  </a>
 
-  <Card title="Best Practices for Clean Room Operations" icon="seti:config" iconColor="#5B9BD5">
-    Essential guidelines and tips for maintaining optimal clean room conditions and protocols.
-    
-    <LinkButton href="/blog/clean-room-best-practices/" variant="text" className="mt-6 mb-4">Read more →</LinkButton>
-  </Card>
-</Grid>
-
-<Grid columns={3}>
-  <Card title="Advanced Lithography Techniques" icon="seti:pipeline" iconColor="#979BFF">
-    Explore advanced lithography methods and how they're shaping the future of nanofabrication.
-    
-    <LinkButton href="/blog/advanced-lithography/" variant="text" className="mt-6 mb-4">Read more →</LinkButton>
-  </Card>
-
-  <Card title="Equipment Maintenance Tips" icon="seti:todo" iconColor="#7BE1A4">
-    Keep your nanofabrication equipment running smoothly with these maintenance and troubleshooting tips.
-    
-    <LinkButton href="/blog/equipment-maintenance/" variant="text" className="mt-6 mb-4">Read more →</LinkButton>
-  </Card>
-
-  <Card title="Community Highlights" icon="seti:less" iconColor="#FFD97B">
-    Celebrating contributions and innovations from the NanoKnow community around the world.
-    
-    <LinkButton href="/blog/community-highlights/" variant="text" className="mt-6 mb-4">Read more →</LinkButton>
-  </Card>
+  <a href="/blog/community-highlights/" style="text-decoration: none; color: inherit; display: block;">
+    <Card title="Community Highlights" icon="puzzle" iconColor="#5B9BD5">
+      Celebrating contributions and innovations from the NanoKnow community around the world.
+    </Card>
+  </a>
 </Grid>
 
 </Section>
