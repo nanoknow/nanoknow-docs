@@ -1,48 +1,16 @@
 {
   "main": [
     {
-      "label": "Getting Started",
-      "items": [
-        {
-          "label": "[seti:vite] Introduction",
-          "autogenerate": {
-            "directory": "getting-started/introduction"
-          }
-        },
-        {
-          "label": "[setting] Global Settings",
-          "autogenerate": {
-            "directory": "getting-started/global-settings"
-          }
-        },
-        {
-          "label": "[seti:plan] Navigation",
-          "slug": "getting-started/navigation"
-        }
-      ]
+      "label": "Equipment & Processes",
+      "slug": "equipment-processes"
     },
     {
-      "label": "Content",
-      "items": [
-        {
-          "label": "[document] Components and Block",
-          "autogenerate": {
-            "directory": "contents/components"
-          }
-        },
-        {
-          "label": "[pencil] Editing Content",
-          "autogenerate": {
-            "directory": "contents/editing"
-          }
-        }
-      ]
+      "label": "Best Practices",
+      "slug": "best-practices"
     },
     {
-      "label": "Configurations",
-      "autogenerate": {
-        "directory": "configurations"
-      }
+      "label": "Participating FAB Facilities",
+      "slug": "fab-facilities"
     }
   ]
 }

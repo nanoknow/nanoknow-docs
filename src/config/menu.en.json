@@ -5,12 +5,20 @@
       "url": "/"
     },
     {
-      "name": "Documentation",
-      "url": "/getting-started/introduction/overview/"
+      "name": "About Us",
+      "url": "/about-us/"
     },
     {
       "name": "Blog",
       "url": "/blog/"
+    },
+    {
+      "name": "Documentation",
+      "url": "/documentation/"
+    },
+    {
+      "name": "Get Involved",
+      "url": "/get-involved/"
     }
   ],
   "footer": {
@@ -18,16 +26,8 @@
       "title": "Join Our Community",
       "links": [
         {
-          "name": "GitHub Discussions",
-          "url": "https://github.com/themefisher/dockit/discussions"
-        },
-        {
-          "name": "Discord Community",
-          "url": "/"
-        },
-        {
-          "name": "Twitter Updates",
-          "url": "/"
+          "name": "DiscourseCommunity",
+          "url": "https://forum.nanoknow.com/"
         },
         {
           "name": "Contributing Guide",
@@ -53,14 +53,10 @@
         {
           "name": "About Us",
           "url": "/about"
-        },
-        {
-          "name": "Troubleshooting",
-          "url": "/"
         }
       ]
     },
-    "company": {
+    "resources": {
       "title": "Resources",
       "links": [
         {
@@ -68,20 +64,8 @@
           "url": "/docs/"
         },
         {
-          "name": "Theme Gallery",
-          "url": "/"
-        },
-        {
-          "name": "Best Practices",
-          "url": "/"
-        },
-        {
-          "name": "Performance Tips",
-          "url": "/"
-        },
-        {
-          "name": "Migration Guide",
-          "url": "/"
+          "name": "Blog",
+          "url": "/blog/"
         }
       ]
     }

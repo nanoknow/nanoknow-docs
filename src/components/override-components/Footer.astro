@@ -44,11 +44,11 @@ const footer = menu.footer;
         )
       }
       {
-        footer.company && (
+        footer.resources && (
           <div>
-            <h4>{footer.company.title}</h4>
+            <h4>{footer.resources.title}</h4>
             <ul>
-              {footer.company?.links.map((link: any) => (
+              {footer.resources?.links.map((link: any) => (
                 <li>
                   <a href={link.url}>{link.name}</a>
                 </li>
@@ -110,7 +110,6 @@ const footer = menu.footer;
     </div>
     <div class="bottom-footer">
       <p set:html={markdownify(config?.params?.copyright)}/>
-      <a href="/privacy-policy">{Astro.locals.t("footer.privacy", "Privacy Policy")}</a>
     </div>
   </div>
 </footer>

@@ -1,0 +1,32 @@
+---
+title: ""
+description: Join the NanoKnow community and help us grow
+template: splash
+---
+
+import Section from "~/components/Section.astro";
+import Card from "~/components/user-components/NewCard.astro";
+import Grid from "~/components/user-components/Grid.astro";
+import LinkButton from "~/components/LinkButton.astro";
+
+<Section title='<span style="color: #1354A2;">Contribute To</span> <span style="color: #dec331;">NanoKnow</span>' description="Your expertise can help others learn and grow" titleClass="text-7xl">
+
+<div style="margin-top: 4rem;"></div>
+
+<Grid columns={3}>
+  <Card title="Contribute Documentation" icon="seti:notebook" iconColor="#1354A2">
+    Share your knowledge by writing guides, tutorials, or equipment documentation. Help us build the knowledge base.
+  </Card>
+  
+  <Card title="Join the Community" icon="puzzle" iconColor="#FFC500">
+    Participate in our Discourse forum, answer questions, and connect with other nanofab professionals.
+  </Card>
+  
+  <Card title="Get in Touch" icon="rocket" iconColor="#1354A2">
+    Reach out to collaborate, suggest improvements, or learn more about contributing to NanoKnow.
+  </Card>
+</Grid>
+
+
+</Section>
+

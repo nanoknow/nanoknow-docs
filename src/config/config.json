@@ -16,7 +16,7 @@
       "enable": true,
       "action": "#"
     },
-    "copyright": "Designed and Developed by <a class=\"text-primary hover:underline no-underline\" href=\"https://themefisher.com\" target=\"_blank\" rel=\"noopener\" aria-label=\"Themefisher\">Themefisher</a> Copyright &copy; 2025."
+    "copyright": "Designed and Developed by <a class=\"text-primary hover:underline no-underline\" href=\"https://samantharoberts.com\" target=\"_blank\" rel=\"noopener\" aria-label=\"Samantha Roberts\">NanoKnow</a>. Copyright &copy; 2025."
   },
   "navigation_button": {
     "enable": true,
@@ -24,6 +24,6 @@
     "translations": {
       "de": "Erste Schritte"
     },
-    "link": "/getting-started/introduction/overview/"
+    "link": "/equipment-processes/"
   }
 }

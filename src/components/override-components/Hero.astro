@@ -35,22 +35,37 @@ const is404 = Astro.locals.starlightRoute?.id === "404";
 
         <div class="flex justify-center items-center flex-wrap gap-4">
           <p class="text-base font-normal">
-            {Astro.locals.t("hero.popular", "Popular")}:
+            Quick Links:
           </p>
           <div class="flex gap-4 badges px-3 py-2.5 rounded-xl flex-wrap justify-center">
-            {sidebar.map((item: any) => {
-              const href = getFirstHref(item);
-              return (
-                <div class="badge rounded-lg px-2 py-1.5 group transition">
-                  <a
-                    class="cursor-pointer text-text no-underline group-hover:text-black dark:group-hover:text-white transition-colors"
-                    href={href}
-                  >
-                    {item.label}
-                  </a>
-                </div>
-              );
-            })}
+            <div class="badge rounded-lg px-2 py-1.5 group transition">
+              <a
+                class="cursor-pointer text-text no-underline group-hover:text-black dark:group-hover:text-white transition-colors"
+                href="/about-us/"
+              >
+                About Us
+              </a>
+            </div>
+            <div class="badge rounded-lg px-2 py-1.5 group transition">
+              <a
+                class="cursor-pointer text-text no-underline group-hover:text-black dark:group-hover:text-white transition-colors"
+                href="https://forum.nanoknow.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Community Forum
+              </a>
+            </div>
+            <div class="badge rounded-lg px-2 py-1.5 group transition">
+              <a
+                class="cursor-pointer text-text no-underline group-hover:text-black dark:group-hover:text-white transition-colors"
+                href="https://nanobot.chat/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Nanobot Chat
+              </a>
+            </div>
           </div>
         </div>
       </div>
