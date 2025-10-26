@@ -22,7 +22,7 @@ const is404 = Astro.locals.starlightRoute?.id === "404";
   class="hero flex flex-col items-center mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-35"
 >
   {title && <h1 set:html={title} class="mb-8 text-center rounded-2xl" />}
-  {tagline && <p set:html={tagline} class="text-xl text-center" />}
+  {tagline && <p set:html={tagline} class="tagline-custom text-center" />}
 
   {
     !is404 && (
@@ -65,6 +65,14 @@ const is404 = Astro.locals.starlightRoute?.id === "404";
       line-height: 6.5rem !important;
       letter-spacing: -4px;
       color: var(--sl-color-white);
+    }
+    .tagline-custom {
+      font-size: 3rem;
+      margin-top: 1rem;
+      color: #e5e5e5;
+    }
+    :root[data-theme="light"] .tagline-custom {
+      color: #2C2C2C !important;
     }
     .search-container {
       width: 90%;
@@ -119,7 +127,7 @@ const is404 = Astro.locals.starlightRoute?.id === "404";
     img.src = `/${iconPath}` || "";
     img.alt = "icon";
     img.className =
-      "hidden lg:inline-block size-20 -mb-2 rounded-2xl animate-[bounce_2s_ease-in-out_infinite]";
+      "hidden lg:inline-block h-44 w-auto -mb-5 rounded-2xl animate-[bounce_2s_ease-in-out_infinite]";
     iconElements.replaceWith(img);
   }
 </script>

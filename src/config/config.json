@@ -1,11 +1,11 @@
 {
   "site": {
-    "title": "nanoknow",
-    "logo": "/src/assets/logo-light.svg",
-    "logo_darkmode": "/src/assets/logo-dark.svg",
-    "logo_width": "127",
-    "logo_height": "32",
-    "logo_text": "DocKit"
+    "title": "NanoKnow",
+    "logo": "/src/assets/logo.png",
+    "logo_darkmode": "/src/assets/logo.png",
+    "logo_width": "250",
+    "logo_height": "65",
+    "logo_text": "NanoKnow"
   },
   "settings": {
     "search": true,
