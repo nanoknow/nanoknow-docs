@@ -1,0 +1,72 @@
+---
+title: NanoKnow Blog
+description: Latest news, updates, and insights from the NanoKnow community
+template: splash
+---
+
+import Section from "~/components/Section.astro";
+import Card from "~/components/user-components/NewCard.astro";
+import Grid from "~/components/user-components/Grid.astro";
+import LinkButton from "~/components/LinkButton.astro";
+
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-16">
+
+{/* Featured Large Card */}
+<div class="mb-16 max-w-4xl mx-auto">
+  <div class="card bg-lightmode-dark dark:bg-dark py-16 px-10 rounded-2xl border border-gray-600">
+    <div class="flex flex-col items-center text-center">
+      <img src="/Bulb_icon.png" alt="NanoKnow" class="h-28 w-auto mb-2" />
+      <span class="block mb-1 font-bold" style="color: #1354A2; font-size: 5rem;">Sharing Knowledge</span>
+      <span class="block mb-8 font-bold" style="color: #dec331; font-size: 5rem;">Building Community</span>
+    </div>
+  </div>
+</div>
+
+<h2 class="text-4xl font-bold mb-8 text-center">Recent Posts</h2>
+
+<Section title="" description="">
+
+<Grid columns={3}>
+  <Card title="Getting Started with Nanofabrication" icon="rocket" iconColor="#305cde">
+    Learn the fundamentals of nanofabrication techniques and best practices for beginners in the field.
+    
+    <LinkButton href="/blog/getting-started-nanofab/" variant="text" className="mt-6 mb-4">Read more →</LinkButton>
+  </Card>
+
+  <Card title="New Features in 2025" icon="seti:favicon" iconColor="#dec331">
+    Discover the exciting new features and improvements we've rolled out this year to enhance your experience.
+    
+    <LinkButton href="/blog/new-features-2025/" variant="text" className="mt-6 mb-4">Read more →</LinkButton>
+  </Card>
+
+  <Card title="Best Practices for Clean Room Operations" icon="seti:config" iconColor="#5B9BD5">
+    Essential guidelines and tips for maintaining optimal clean room conditions and protocols.
+    
+    <LinkButton href="/blog/clean-room-best-practices/" variant="text" className="mt-6 mb-4">Read more →</LinkButton>
+  </Card>
+</Grid>
+
+<Grid columns={3}>
+  <Card title="Advanced Lithography Techniques" icon="seti:pipeline" iconColor="#979BFF">
+    Explore advanced lithography methods and how they're shaping the future of nanofabrication.
+    
+    <LinkButton href="/blog/advanced-lithography/" variant="text" className="mt-6 mb-4">Read more →</LinkButton>
+  </Card>
+
+  <Card title="Equipment Maintenance Tips" icon="seti:todo" iconColor="#7BE1A4">
+    Keep your nanofabrication equipment running smoothly with these maintenance and troubleshooting tips.
+    
+    <LinkButton href="/blog/equipment-maintenance/" variant="text" className="mt-6 mb-4">Read more →</LinkButton>
+  </Card>
+
+  <Card title="Community Highlights" icon="seti:less" iconColor="#FFD97B">
+    Celebrating contributions and innovations from the NanoKnow community around the world.
+    
+    <LinkButton href="/blog/community-highlights/" variant="text" className="mt-6 mb-4">Read more →</LinkButton>
+  </Card>
+</Grid>
+
+</Section>
+
+</div>
+

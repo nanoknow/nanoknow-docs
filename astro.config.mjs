@@ -6,15 +6,12 @@ import { viewTransitions } from "astro-vtbot/starlight-view-transitions";
 import tailwindcss from "@tailwindcss/vite";
 import config from "./src/config/config.json" assert { type: "json" };
 import social from "./src/config/social.json";
-import locals from "./src/config/locals.json";
 import sidebar from "./src/config/sidebar.json";
 
 import { fileURLToPath } from "url";
 
 const { site } = config;
 const { title, logo, logo_darkmode } = site;
-
-export const locales = locals
 
 
 // https://astro.build/config
@@ -32,7 +29,6 @@ export default defineConfig({
       },
       // @ts-ignore
       social: social.main || [],
-      locales,
       sidebar: sidebar.main || [],
       customCss: ["./src/styles/global.css"],
       components: {
