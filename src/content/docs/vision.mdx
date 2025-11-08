@@ -1,0 +1,51 @@
+---
+title: "" #keep empty string else will have splash title in the upper left of the page
+description: Learn about NanoKnow and our mission to share nanofabrication knowledge
+template: splash
+---
+
+import Section from "~/components/Section.astro";
+import Card from "~/components/user-components/NewCard.astro";
+import Grid from "~/components/user-components/Grid.astro";
+
+
+<div id="vision"></div>
+
+<Section title='<span style="color: #1354A2;">The Vision of</span> <span style="color: #FFC500;">NanoKnow</span>' description="Democratizing nanofabrication knowledge for everyone" titleClass="text-7xl">
+
+<div style="margin-top: 4rem;"></div>
+
+<div class="prose dark:prose-invert max-w-4xl mx-auto mb-16 text-lg text-center">
+
+We envision a world where nanofabrication knowledge is accessible to anyone with curiosity and drive. Where students can learn from decades of collective experience, where researchers can quickly find answers to complex technical questions, and where the entire community benefits from shared expertise.
+
+</div>
+
+
+<div style="margin: 3rem auto; max-width: 1200px;">
+  <iframe 
+    src="/nanofabs_map.html" 
+    width="100%" 
+    height="600" 
+    style="border: 1px solid #333; border-radius: 8px; height: 600px !important; min-height: 600px !important;"
+    title="Nanofabrication Facilities Map"
+  ></iframe>
+</div>
+
+
+
+<Grid columns={3}>
+  <Card title="Global Access" icon="rocket" iconColor="#1354A2">
+    Make nanofabrication knowledge accessible to researchers and students worldwide, regardless of their institution's resources.
+  </Card>
+  
+  <Card title="Continuous Learning" icon="seti:notebook" iconColor="#FFC500">
+    Create a living knowledge base that evolves with the field, incorporating new techniques and technologies.
+  </Card>
+  
+  <Card title="Community Growth" icon="puzzle" iconColor="#1354A2">
+    Build a thriving community where knowledge flows freely and collaboration is encouraged.
+  </Card>
+</Grid>
+
+</Section>

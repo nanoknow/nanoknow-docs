@@ -5,16 +5,12 @@
       "url": "/"
     },
     {
-      "name": "About Us",
-      "url": "/about-us/"
+      "name": "Vision",
+      "url": "/vision/"
     },
     {
       "name": "Blog",
       "url": "/blog/"
-    },
-    {
-      "name": "Documentation",
-      "url": "/documentation/"
     },
     {
       "name": "Get Involved",

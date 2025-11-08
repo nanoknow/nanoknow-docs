@@ -1,16 +1,12 @@
 {
   "main": [
     {
-      "label": "Equipment & Processes",
-      "slug": "equipment-processes"
+      "label": "Vision",
+      "slug": "vision"
     },
     {
-      "label": "Best Practices",
-      "slug": "best-practices"
-    },
-    {
-      "label": "Participating FAB Facilities",
-      "slug": "fab-facilities"
+      "label": "Blog",
+      "slug": "blog"
     }
   ]
 }
