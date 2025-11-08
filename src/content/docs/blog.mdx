@@ -9,9 +9,15 @@ import Card from "~/components/user-components/NewCard.astro";
 import Grid from "~/components/user-components/Grid.astro";
 import LinkButton from "~/components/LinkButton.astro";
 
-<Section title='<span style="color: #1354A2;">Sharing Knowledge</span> <span style="color: #dec331;">Building Community</span>' description="" titleClass="text-7xl">
+<Section title='<span style="color: #1354A2;">Sharing Knowledge</span> <span style="color: #dec331;">Building Community</span>' description="COMING SOON" titleClass="text-7xl">
 
 <div style="margin-top: 4rem;"></div>
+
+<div class="prose dark:prose-invert max-w-4xl mx-auto mb-16 text-lg text-center">
+
+**Coming Soon:** A space for community updates, progress summaries, and contributions from those helping shape NanoKnow.
+
+</div>
 
 <Grid columns={3}>
 
@@ -20,17 +26,15 @@ import LinkButton from "~/components/LinkButton.astro";
     </Card>
 
 
-  <a href="/blog/clean-room-best-practices/" style="text-decoration: none; color: inherit; display: block;">
     <Card title="Clean Room Best Practices" icon="seti:config" iconColor="#dec331">
       Essential guidelines and tips for maintaining optimal clean room conditions and protocols.
     </Card>
-  </a>
 
-  <a href="/blog/community-highlights/" style="text-decoration: none; color: inherit; display: block;">
+
     <Card title="Community Highlights" icon="puzzle" iconColor="#5B9BD5">
       Celebrating contributions and innovations from the NanoKnow community around the world.
     </Card>
-  </a>
+
 </Grid>
 
 </Section>
