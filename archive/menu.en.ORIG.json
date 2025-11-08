@@ -18,25 +18,33 @@
       "title": "Join Our Community",
       "links": [
         {
-          "name": "Discourse Community",
-          "url": "https://forum.nanoknow.org/"
+          "name": "DiscourseCommunity",
+          "url": "https://forum.nanoknow.com/"
         },
         {
-          "name": "Get Involved",
-          "url": "/get-involved/"
+          "name": "Contributing Guide",
+          "url": "/"
         }
       ]
     },
     "help_links": {
-      "title": "About",
+      "title": "Helpful Links",
       "links": [
         {
-          "name": "The NanoKnow Vision",
-          "url": "/vision/"
+          "name": "Getting Started",
+          "url": "/"
         },
         {
-          "name": "Contact Us",
-          "url": "/contact/"
+          "name": "Privacy Policy",
+          "url": "/privacy-policy"
+        },
+        {
+          "name": "Terms and Conditions",
+          "url": "/terms-conditions"
+        },
+        {
+          "name": "About Us",
+          "url": "/about"
         }
       ]
     },
@@ -45,7 +53,7 @@
       "links": [
         {
           "name": "Documentation Hub",
-          "url": "/documentation/"
+          "url": "/docs/"
         },
         {
           "name": "Blog",

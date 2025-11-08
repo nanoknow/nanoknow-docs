@@ -20,21 +20,23 @@ import Grid from "~/components/user-components/Grid.astro";
 
 <div class="prose dark:prose-invert max-w-4xl mx-auto mb-16 text-lg text-center">
 
-NanoKnow was created to address the growing need for accessible, comprehensive knowledge sharing in the nanofabrication community. We believe that by bringing together expertise, documentation, and best practices in one place, we can accelerate learning and innovation in the field.
+NanoKnow was created to address the growing need for accessible, comprehensive knowledge sharing in the nanofabrication community. We believe that by bringing together expertise, documentation, and best practices in one place, we can accelerate learning and innovation in the field — helping accelerate discoveries in physics, photonics, biology, medicine, chemistry, engineering and beyond.
 
 </div>
 
 <Grid columns={3}>
-  <Card title="Knowledge Sharing" icon="open-book" iconColor="#1354A2">
-    We curate and maintain comprehensive documentation on nanofabrication techniques, equipment, and processes.
+  <Card title="Shared Knowledge Base" icon="open-book" iconColor="#1354A2">
+    We’re building a collaborative library of SOPs, process notes, and equipment documentation that captures and preserves practical know-how.
   </Card>
+
+  <a href="https://forum.nanoknow.org" target="_blank" rel="noopener" style="text-decoration: none; color: inherit; display: block;">
+    <Card title="Community Forum" icon="puzzle" iconColor="#FFC500">
+      Connect with researchers, engineers, and students sharing real nanofabrication experience — breaking down technical barriers to enable faster, more impactful research.
+    </Card>
+  </a>
   
-  <Card title="Community Building" icon="seti:folder" iconColor="#FFC500">
-    We foster connections between researchers, engineers, and students in the nanofabrication field.
-  </Card>
-  
-  <Card title="Open Access" icon="link" iconColor="#1354A2">
-    We provide free, open access to knowledge that traditionally requires years of hands-on experience.
+  <Card title="AI-Assisted Discovery" icon="rocket" iconColor="#1354A2">
+    Our next step is integrating intelligent tools to help researchers find relevant documents, link related topics, and uncover insights faster.
   </Card>
 </Grid>
 
